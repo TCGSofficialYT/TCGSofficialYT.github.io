@@ -26,6 +26,10 @@ body {
     color: cyan;
 }
 
+.img_logo {
+    max_width: 20px;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
