@@ -28,6 +28,8 @@ body {
 
 .img_logo {
     max_width: 20px;
+    display: flex;
+    gap: 0.3rem;
 }
 
 .nav-links {
