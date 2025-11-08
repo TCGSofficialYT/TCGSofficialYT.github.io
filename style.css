@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 1rem 2rem;
+    border-bottom: 4px solid cyan;
+
+    position: fixed;  /* sticks it to the viewport */
+    top: 0;           /* align to the top */
+    left: 0;          /* align to the left */
+    width: 100%;      /* full width */
+    z-index: 1000;    /* stays on top of other elements */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: cyan;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-weight: italic;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-links li a:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
+
+.coming-soon {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.coming-soon h1 {
+    font-size: 3rem;
+    color: red;
+}
+
+.coming-soon p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.game-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid green;
+    border-radius: 10px;
+}
