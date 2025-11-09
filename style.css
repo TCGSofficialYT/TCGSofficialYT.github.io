@@ -29,7 +29,7 @@ body {
 .img_logo {
     max_width: 20px;
     display: flex;
-    gap: 0.3rem;
+    gap: 20px;
 }
 
 .nav-links {
