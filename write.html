@@ -6,10 +6,11 @@
     <title>Query Display</title>
 </head>
 <body>
-    <h1 id="key">Key: </h1>
-    <h1 id="value">Value: </h1>
+    <n id="key">Key: </n>
+    <n id="value">Value: </n>
+    Success
 
-    <script>
+    <n>
         // Get the query parameters from the URL
         const urlParams = new URLSearchParams(window.location.search);
         
@@ -20,6 +21,6 @@
         // Display them in the h1 elements
         document.getElementById('key').textContent = 'Key: ' + (key ? key : 'Not provided');
         document.getElementById('value').textContent = 'Value: ' + (value ? value : 'Not provided');
-    </script>
+    </n>
 </body>
 </html>
