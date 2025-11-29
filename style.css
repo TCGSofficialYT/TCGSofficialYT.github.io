@@ -39,6 +39,12 @@ h4 {
     color: #16A085;
 }
 
+/* Style the description (h6) */
+h6 {
+    font-size: 1.2em;
+    color: #16A085;
+}
+
 /* Add some spacing around the page */
 section {
     max-width: 900px;
