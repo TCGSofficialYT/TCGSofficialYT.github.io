@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Display</title>
+</head>
+<body>
+    <h1 id="key">Key: </h1>
+    <h1 id="value">Value: </h1>
+
+    <script>
+        // Get the query parameters from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        // Get the 'key' and 'value' query parameters
+        const key = urlParams.get('key');
+        const value = urlParams.get('value');
+        
+        // Display them in the h1 elements
+        document.getElementById('key').textContent = 'Key: ' + (key ? key : 'Not provided');
+        document.getElementById('value').textContent = 'Value: ' + (value ? value : 'Not provided');
+    </script>
+</body>
+</html>
