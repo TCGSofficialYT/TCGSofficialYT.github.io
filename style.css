@@ -36,6 +36,11 @@ h2 {
   font-weight: 500;
 }
 
+.alignright {
+  /* alignright is only supposed to be used for that one h6, but i guess you can use it for any text? */
+  text-align: right;
+}
+
 .separator {
   text-align: center;
   padding: 40px 0;
